@@ -40,10 +40,11 @@ export default {
     },
     methods:{
         apicall(){
-            axios.get('https://jsonplaceholder.typicode.com/posts')
+            // axios.get('https://jsonplaceholder.typicode.com/posts')
+            axios.get('https://mocki.io/v1/cb410377-80d8-407f-a246-0d3f81829cd4')
             .then((responce)=>
             this.data = responce.data)
-            // console.log(this.data)
+            console.log(this.data)
         }
     }
 }
