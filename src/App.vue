@@ -2,16 +2,25 @@
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <Getelement />
+  <Hooks />
+  <Composite />
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import Getelement from './components/Getelement.vue'
+import Hooks from './components/Hooks.vue'
+import Composite from'./components/Composite.vue'
 export default {
   name: 'App',
   components: {
     // HelloWorld
-    Getelement
+    Getelement,
+    Hooks,
+    Composite,
+  },
+  data(){
+    return
   }
 }
 </script>
